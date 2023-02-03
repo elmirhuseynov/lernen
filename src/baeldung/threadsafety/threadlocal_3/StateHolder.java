@@ -1,0 +1,15 @@
+package baeldung.threadsafety.threadlocal_3;
+
+public class StateHolder {
+
+    private final String state;
+
+    public StateHolder(String state) {
+        this.state = state;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+}
